@@ -25,7 +25,7 @@
         "psmodules_root_folder": "C:\\Modules",
         "agent_tools_directory": "C:\\hostedtoolcache\\windows",
         "install_user": "installer",
-        "install_password": null,
+        "install_password": "{{env `INSTALL_PASSWORD`}}",
         "capture_name_prefix": "packer",
         "image_version": "dev",
         "image_os": "win19"
